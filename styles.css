@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    }
+    p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    }
+    h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .obal{
+    border-radius: 0.6em;
+    margin: auto;  
+    }
+    header{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(155, 155, 155);
+        text-align: center;
+        box-shadow: 0px 10px 15px 10px rgb(61, 61, 61);
+        border-radius: 1em;
+    }
+    .obal2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0.6em;
+
+    }
+    .vlevo{
+        background-color: rgb(155, 155, 155);
+        display: inline-block;
+        display: flex;
+        border-radius: 1em;
+        flex-direction: column;
+        border: solid;
+        padding-bottom: 0.6em;
+    }
+    .vpravo{
+        background-color: rgb(155, 155, 155);
+        border-radius: 1em;
+        text-align: center;
+    }
+    .kontakty{
+        padding-left: 50px;
+        padding-right:50px;
+    }
+    footer{
+        background-color: #e4e4e4;
+        padding: 1em;
+        text-align: center;
+        border-radius: 1em;
+        border: solid rgba(128, 128, 128, 0.541);
+        margin-top: 7px;
+    }
+    nav{
+        background-color: rgba(0, 0, 0, 0.281);
+        border-radius: 1em;
+        margin-bottom: 10px;
+        box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.479);
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 0.6em;
+        margin: 0em;
+        text-align: center;
+    }
+    nav ul li{
+        width: auto;
+        border: solid rgba(0, 0, 0, 0.123);
+        border-radius: 0.6em;
+    }
+    nav ul li a{
+        display:block;
+        background-color: gainsboro;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        color: rgb(0, 0, 0);
+        border-radius: 0.5em;
+    }
+    a:hover{
+        background-color: rgba(66, 66, 66, 0.432);
+    }   
+    .odstavec1{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: row;
+    }
+    .odstavec2{
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        flex-direction: row;
+    }
+    img{
+        display: block;
+        margin: auto;
+        border-radius: 0.6em;
+        border: solid;
+        width: 50%;
+    }
+    .obrazek1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+    @media screen and (min-width: 1000px) {
+        nav ul li{
+            display: inline-block;
+        }     
+        h1{
+            text-align: left;
+        }
+        .obal2{
+            flex-direction: row;
+        }
+        .vlevo{
+            flex-direction: row;
+        }
+        .odstavec1{
+            width: 50%;
+        }
+        .odstavec2{
+            width: 50%;
+        }
+        nav ul li{
+            width: 250px;
+        }
+    }
+    @media screen and (min-width: 665px) {
+        img{
+            width: 300px;
+        }
+    }
